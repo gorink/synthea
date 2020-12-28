@@ -15,7 +15,7 @@
 <script type="text/javascript" src="../../../../script-dir/jquery-ui.min.js"></script>
 </head>
 <body class="class-declaration-page">
-<script type="text/javascript">var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10};
+<script type="text/javascript">var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "alt-color";
 var rowColor = "row-color";
@@ -284,62 +284,72 @@ long&nbsp;personSeed)</code></th>
 </td>
 </tr>
 <tr class="alt-color" id="i4">
+<td class="col-first"><code>boolean</code></td>
+<th class="col-second" scope="row"><code><span class="member-name-link"><a href="#patientMeetsCriteria(boolean,int,int)">patientMeetsCriteria</a></span>&#8203;(boolean&nbsp;isAlive,
+int&nbsp;providerCount,
+int&nbsp;providerMinimum)</code></th>
+<td class="col-last">
+<div class="block">Determines if a patient meets the requested criteria
+ If a patient does not meet the criteria the process will be repeated so a new one is generated</div>
+</td>
+</tr>
+<tr class="row-color" id="i5">
 <td class="col-first"><code>double</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#rand()">rand</a></span>()</code></th>
 <td class="col-last">
 <div class="block">Returns a random double.</div>
 </td>
 </tr>
-<tr class="row-color" id="i5">
+<tr class="alt-color" id="i6">
 <td class="col-first"><code>boolean</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#randBoolean()">randBoolean</a></span>()</code></th>
 <td class="col-last">
 <div class="block">Returns a random boolean.</div>
 </td>
 </tr>
-<tr class="alt-color" id="i6">
+<tr class="row-color" id="i7">
 <td class="col-first"><code>double</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#randGaussian()">randGaussian</a></span>()</code></th>
 <td class="col-last">
 <div class="block">Returns a double from a normal distribution.</div>
 </td>
 </tr>
-<tr class="row-color" id="i7">
+<tr class="alt-color" id="i8">
 <td class="col-first"><code>int</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#randInt()">randInt</a></span>()</code></th>
 <td class="col-last">
 <div class="block">Returns a random integer.</div>
 </td>
 </tr>
-<tr class="alt-color" id="i8">
+<tr class="row-color" id="i9">
 <td class="col-first"><code>int</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#randInt(int)">randInt</a></span>&#8203;(int&nbsp;bound)</code></th>
 <td class="col-last">
 <div class="block">Returns a random integer in the given bound.</div>
 </td>
 </tr>
-<tr class="row-color" id="i9">
+<tr class="alt-color" id="i10">
 <td class="col-first"><code>long</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#randLong()">randLong</a></span>()</code></th>
 <td class="col-last">
 <div class="block">Return a random long.</div>
 </td>
 </tr>
-<tr class="alt-color" id="i10">
+<tr class="row-color" id="i11">
 <td class="col-first"><code>java.util.Map&lt;java.lang.String,&#8203;java.lang.Object&gt;</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#randomDemographics(java.util.Random)">randomDemographics</a></span>&#8203;(java.util.Random&nbsp;random)</code></th>
 <td class="col-last">
 <div class="block">Create a set of random demographics.</div>
 </td>
 </tr>
-<tr class="row-color" id="i11">
+<tr class="alt-color" id="i12">
 <td class="col-first"><code>java.util.UUID</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#randUUID()">randUUID</a></span>()</code></th>
 <td class="col-last">
 <div class="block">Return a random UUID.</div>
 </td>
 </tr>
-<tr class="alt-color" id="i12">
+<tr class="row-color" id="i13">
 <td class="col-first"><code>void</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#recordPerson(org.mitre.synthea.world.agents.Person,int)">recordPerson</a></span>&#8203;(<a href="../world/agents/Person.html" title="class in org.mitre.synthea.world.agents">Person</a>&nbsp;person,
 int&nbsp;index)</code></th>
@@ -347,14 +357,14 @@ int&nbsp;index)</code></th>
 <div class="block">Record the person using whatever tracking mechanisms are currently configured.</div>
 </td>
 </tr>
-<tr class="row-color" id="i13">
+<tr class="alt-color" id="i14">
 <td class="col-first"><code>void</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#run()">run</a></span>()</code></th>
 <td class="col-last">
 <div class="block">Generate the population, using the currently set configuration settings.</div>
 </td>
 </tr>
-<tr class="alt-color" id="i14">
+<tr class="row-color" id="i15">
 <td class="col-first"><code>void</code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#updatePerson(org.mitre.synthea.world.agents.Person)">updatePerson</a></span>&#8203;(<a href="../world/agents/Person.html" title="class in org.mitre.synthea.world.agents">Person</a>&nbsp;person)</code></th>
 <td class="col-last">
@@ -362,7 +372,7 @@ int&nbsp;index)</code></th>
  they die, whichever comes sooner.</div>
 </td>
 </tr>
-<tr class="row-color" id="i15">
+<tr class="alt-color" id="i16">
 <td class="col-first"><code><a href="../world/agents/Person.html" title="class in org.mitre.synthea.world.agents">Person</a></code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#updateRecordExportPerson(org.mitre.synthea.world.agents.Person,int)">updateRecordExportPerson</a></span>&#8203;(<a href="../world/agents/Person.html" title="class in org.mitre.synthea.world.agents">Person</a>&nbsp;person,
 int&nbsp;index)</code></th>
@@ -571,6 +581,24 @@ long&nbsp;personSeed)</span></div>
 <dd><code>personSeed</code> - Seed for the random person</dd>
 <dt>Returns:</dt>
 <dd>generated Person</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="patientMeetsCriteria(boolean,int,int)">
+<h3>patientMeetsCriteria</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="member-name">patientMeetsCriteria</span>&#8203;(<span class="parameters">boolean&nbsp;isAlive,
+int&nbsp;providerCount,
+int&nbsp;providerMinimum)</span></div>
+<div class="block">Determines if a patient meets the requested criteria
+ If a patient does not meet the criteria the process will be repeated so a new one is generated</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>isAlive</code> - </dd>
+<dd><code>providerCount</code> - </dd>
+<dd><code>providerMinimum</code> - </dd>
+<dt>Returns:</dt>
+<dd>true if patient meets criteria, false otherwise</dd>
 </dl>
 </section>
 </li>
