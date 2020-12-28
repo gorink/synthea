@@ -289,8 +289,7 @@ long&nbsp;personSeed)</code></th>
 int&nbsp;providerCount,
 int&nbsp;providerMinimum)</code></th>
 <td class="col-last">
-<div class="block">Determines if a patient meets the requested criteria
- If a patient does not meet the criteria the process will be repeated so a new one is generated</div>
+<div class="block">Determines if a patient meets the requested criteria.</div>
 </td>
 </tr>
 <tr class="row-color" id="i5">
@@ -590,13 +589,13 @@ long&nbsp;personSeed)</span></div>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="member-name">patientMeetsCriteria</span>&#8203;(<span class="parameters">boolean&nbsp;isAlive,
 int&nbsp;providerCount,
 int&nbsp;providerMinimum)</span></div>
-<div class="block">Determines if a patient meets the requested criteria
+<div class="block">Determines if a patient meets the requested criteria.
  If a patient does not meet the criteria the process will be repeated so a new one is generated</div>
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>isAlive</code> - </dd>
-<dd><code>providerCount</code> - </dd>
-<dd><code>providerMinimum</code> - </dd>
+<dd><code>isAlive</code> - Whether the patient is alive at end of simulation.</dd>
+<dd><code>providerCount</code> - Number of providers in the patient's record</dd>
+<dd><code>providerMinimum</code> - Minimum number of providers required</dd>
 <dt>Returns:</dt>
 <dd>true if patient meets criteria, false otherwise</dd>
 </dl>
